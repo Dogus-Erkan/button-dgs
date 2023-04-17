@@ -1,9 +1,39 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+button {
+  border: 2px solid #5c636e;
+  background-color: #f7f7f7;
+  display: inline-block;
+  position: relative;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+  background-color: #5c636e;
+  color: #f7f7f7;
+}
+
+.primary {
+  color: #fff;
+  background-color: #393e46;
+}
+
+.dashed {
+  border: dashed #5c636e;
+}
+
+.text {
+  border: none;
+}
+
+.linked {
+  border: none;
+  color: #118df0;
 }
